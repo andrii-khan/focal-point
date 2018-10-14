@@ -17,22 +17,26 @@
 
 <body>
 	<main>
-		<div class="ba-container">
-			<header class="ba-menu">
-				<a href="#" class="ba-menu-logo"><img src="img/logo.png" alt="logo"></a>
-				<nav class="ba-menu-nav">
-					<ul class="ba-menu-list">
-						<li class="ba-menu-item">
-							<img src="img/calendar.png" alt="calendar">
-							<a href="#"><span>Blog</span></a>
-						</li>
-						<li class="ba-menu-item">
-							<img src="img/lock.png" alt="lock">
-							<a href="#"><span>Login</span></a>
-					</ul>
-				</nav>
-			</header>
-		</div>
+
+		<header class="ba-menu">
+			<div class="ba-container">
+				<div class="ba-header-bar">
+					<a href="#" class="ba-menu-logo"><img src="img/logo.png" alt="logo"></a>
+					<nav class="ba-menu-nav">
+						<ul class="ba-menu-list">
+							<li class="ba-menu-item">
+								<img src="img/calendar.png" alt="calendar">
+								<a href="#"><span>Blog</span></a>
+							</li>
+							<li class="ba-menu-item">
+								<img src="img/lock.png" alt="lock">
+								<a href="#"><span>Login</span></a>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
 		<section class="ba-intro">
 			<div class="ba-container">
 				<div class="ba-row">
@@ -43,13 +47,13 @@
 					</div>
 					<div class="ba-col-4">
 						<div class="ba-register">
-								<ul class="ba-register__list">
-									<li class="ba-register__item"><img src="img/globus.png" alt="globus">Web Site</li>
-									<li class="ba-register__item"><img src="img/phone.png" alt="phone">Phone</li>
-									<li class="ba-register__item"><img src="img/mail.png" alt="mail">E-mail</li>
-									<li class="ba-register__item"><img src="img/tabl.png	" alt="table">Contacts</li>
-									<li class="ba-register__item"><img src="img/cel.png" alt="calendar">Appointments</li>
-								</ul>
+							<ul class="ba-register__list">
+								<li class="ba-register__item"><img src="img/globus.png" alt="globus">Web Site</li>
+								<li class="ba-register__item"><img src="img/phone.png" alt="phone">Phone</li>
+								<li class="ba-register__item"><img src="img/mail.png" alt="mail">E-mail</li>
+								<li class="ba-register__item"><img src="img/tabl.png	" alt="table">Contacts</li>
+								<li class="ba-register__item"><img src="img/cel.png" alt="calendar">Appointments</li>
+							</ul>
 						</div>
 					</div>
 					<div class="ba-col-4">
@@ -59,9 +63,9 @@
 								<input type="email" name="email" placeholder="Email adress" required>
 								<input type="password" name="password" placeholder="Password" required>
 								<button class="ba-register__btn" type="submit">
-									<p><strong>Start</strong>
-									14 days free trial
-									<strong>now</strong></p> 
+									<span><strong>Start</strong>
+										14 days free trial
+										<strong>now</strong></span>
 									<img src="img/right.png" alt="right">
 								</button>
 							</form>
@@ -70,6 +74,130 @@
 				</div>
 			</div>
 		</section>
+		<section class="ba-about">
+			<div class="ba-container">
+
+				<div class="ba-about-top">
+					<span class="ba-about-text">Already have an account?
+						<a class="ba-about-login" href="#">
+							<img src="img/lock2.png" alt="lock">
+							Login here.</a></span>
+				</div>
+				<div class="ba-about-midle">
+					<span class="ba-about-tittle">Your business needs to make money.
+						<img class="ba-about-dol" src="img/$.png" alt="$"></span>
+					<h2>Not spend time on setting up web site and mailboxes.</h2>
+				</div>
+				<div class="ba-about-grid">
+					<div class="ba-row">
+						<div class="ba-col-6">
+							<div class="ba-info">
+								<div class="ba-info__img"><img src="img/chtmodan.png" alt="chemodan"></div>
+								<div class="ba-info__desc">
+									<h3><span class="ba-intro__desc ba-intro__desc--bold">Profile</span>
+										Business name, address, services.</h3>
+									<p>It’s just the basic information about your business - what’s you name, what you do, where you are.</p>
+								</div>
+							</div>
+
+							<div class="ba-info">
+								<div class="ba-info__img"><img src="img/globus.png" alt="globus"></div>
+								<div class="ba-info__desc">
+									<h3><span class="ba-intro__desc ba-intro__desc--bold">Website</span>
+										How the world sees you.</h3>
+									<p>Get rid of cluttered inbox? Forget that. Email addresse for everyone in your team. Message mean action.</p>
+								</div>
+							</div>
+
+							<div class="ba-info">
+								<div class="ba-info__img"><img src="img/pho.png" alt="phone"></div>
+								<div class="ba-info__desc">
+									<h3><span class="ba-intro__desc ba-intro__desc--bold">Phone</span>
+										Essential bussiness tool.</h3>
+									<p>We give you a phone number for your clients to call, be transferred to a cell or leave messages. With
+										extensions and voice mail for every employee.</p>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="ba-col-6">
+
+							<div class="ba-info">
+								<div class="ba-info__img"><img src="img/email.png" alt="email"></div>
+								<div class="ba-info__desc">
+									<h3><span class="ba-intro__desc ba-intro__desc--bold">E-mail</span>
+										Professional grade communication.</h3>
+									<p>Our intelligent e-mail system tracks entire context of customer interaction - e-mails, phone calls,
+										appointments, visit notes.</p>
+								</div>
+							</div>
+
+							<div class="ba-info">
+								<div class="ba-info__img"><img src="img/calender.png" alt="calendar"></div>
+								<div class="ba-info__desc">
+									<h3><span class="ba-intro__desc ba-intro__desc--bold">Appointments</span>
+										We are all on the clock.</h3>
+									<p>We make scheduling multi-sessions, classes and events really easy for you and your clients. And we won’t
+										let
+										them forget either.</p>
+								</div>
+							</div>
+
+							<div class="ba-info">
+								<div class="ba-info__img"><img src="img/people.png" alt="people"></div>
+								<div class="ba-info__desc">
+									<h3><span class="ba-intro__desc ba-intro__desc--bold">Contacts</span>
+										Clients, staff, vendors.</h3>
+									<p>We track all the activities associated with any person you have in your address book and keep your notes.</p>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+				<div class="ba-about-bottom">
+					<h3>You will eventually need more apps. We have plenty in our Marketplace. And they are all seamlessly
+						integrated.</h3>
+				</div>
+
+
+			</div>
+		</section>
+		<section class="ba-sec-bot">
+			<div class="ba-container">
+				<span class="ba-sec-bot__title">We love helping small businesses.
+					<img src="img/heart.png" alt="heart">
+				</span>
+				<h2 class="ba-sec-bot__desc">Help us help you - the sooner the better.</h2>
+			</div>
+		</section>
+
+		<footer class="ba-footer">
+			<div class="ba-footer__top">
+				<div class="ba-container">
+					<div class="ba-footer-sec">
+						<h2 class="ba-footer-text">Start your free, no-risk, 14 day trial.</h2>
+						<button class="ba-footer-btn">Get started now</button>
+					</div>
+				</div>
+			</div>
+			<div class="ba-footer__bot">
+				<div class="ba-container">
+					<div class="ba-footer-sec">
+						<p>&copy; 2012-2013 Focal Point</p>
+						<ul class="ba-footer-list">
+							<li><a href="#">Tearms of Service</a></li>
+							<li><a href="#">Privacy</a></li>
+							<li><a href="#">Sitemap</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
 	</main>
 </body>
 

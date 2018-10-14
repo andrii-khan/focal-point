@@ -13,7 +13,6 @@
     font-style: normal;
 }
 body{
-	background-color: #000;
 	color: #fff;
 	font-family: ProximaRegular, sans-serif;
 	font-weight: normal;
@@ -21,6 +20,7 @@ body{
 .ba-intro {
 	background: url(../img/bg.jpg) no-repeat 50%;
 	background-size: cover;
+	background-color: #000;
 }
 p,h1,h2,h3,h4,h5,h6 {
 	padding: 0;
@@ -76,11 +76,13 @@ select:focus {
 textarea {
 
 }
-.ba-menu {
+.ba-header-bar {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+.ba-menu {
 	background-color: #000;
 }
 .ba-menu-list {
@@ -183,4 +185,132 @@ textarea {
 }
 .ba-register__form {
 	margin-bottom: 80px;
+}
+.ba-about {
+	background: white url(../img/gb2.jpg) 50% no-repeat;
+	border-bottom: 5px solid #EAEAEA;
+	background-size: cover;	
+	color: #666666;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+.ba-about-top {
+	margin-bottom: 60px;
+}
+.ba-about-midle {
+	margin-bottom: 65px;
+}
+.ba-about-login {
+	text-decoration: none;
+	color: #666666;
+	font-weight: 700;
+	padding-left: 10px;
+	font-family: ProximaBold;
+}
+.ba-about-login:hover {
+	text-decoration: underline;
+}
+.ba-about-tittle {
+	color: #333;
+	font: 700 36px/1.2 ProximaBold, sans-serif;
+	position: relative;
+}
+.ba-about-dol {
+	position: absolute;	
+	top: -5px;
+}
+.ba-info {
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+.ba-info__img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #cc0000;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	flex-shrink: 0;
+	align-self: flex-start;
+}
+.ba-info__desc {
+	text-align: left;
+	padding-left: 20px;
+	align-self: flex-start;
+
+}
+.ba-intro__desc {
+	font-size: 18px;
+	
+}
+.ba-intro__desc--bold {
+	font-family: ProximaBold;
+	font-weight: 700;
+	color: #000;
+}
+.ba-about-grid {
+	margin-bottom: 40px;
+}
+.ba-sec-bot {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	color: #666666;
+	text-align: center;
+}
+.ba-sec-bot__title {
+	font: 700 36px/1.2 ProximaBold, sans-serif;
+	position: relative;
+	color: #333;
+}
+.ba-sec-bot__title img {
+	position: absolute;
+	top: -10px;
+}
+.ba-footer__top	{
+	background-color: #333;
+	text-align: center;
+	padding: 30px 0;
+}
+.ba-footer-sec {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.ba-footer-text {
+	font-size: 36px;
+}
+.ba-footer-btn{
+	border: none;
+	padding: 15px 50px;
+	background-color: #cc0000;
+	border-bottom: 2px solid #ae0000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+	font: 700 18px/1.2 ProximaBold;
+}
+.ba-footer-btn:hover {
+	background-color: #ff0000;
+}
+.ba-footer__bot {
+	background-color: #000;
+	font-size: 12px;
+}
+.ba-footer-list {
+	list-style: none;
+	display: flex;
+}
+.ba-footer-list li {
+	padding-left: 15px;
+}
+.ba-footer-list a {
+	text-decoration: none;
+	color: #fff;
+}
+.ba-footer-list a:hover {
+	color: #666666;
 }
