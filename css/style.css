@@ -92,6 +92,7 @@ textarea {
 	margin: 0;
 	padding: 0;
 	font: 700 18px/1.2 ProximaBold, sans-serif;
+	cursor: pointer;
 }
 .ba-menu-item + .ba-menu-item {
 	margin-left: 10px;
@@ -187,8 +188,8 @@ textarea {
 	margin-bottom: 80px;
 }
 .ba-about {
-	background: white url(../img/gb2.jpg) 50% no-repeat;
-	border-bottom: 5px solid #EAEAEA;
+	background: white url(../img/gb2.jpg) no-repeat;
+	border-bottom: 2px solid #EAEAEA;
 	background-size: cover;	
 	color: #666666;
 	text-align: center;
